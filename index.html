@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Digitamygdala — Technology Advisory & Fractional CTO services for South African insurance and financial services companies. Strategic guidance without the full-time cost.">
+    <meta name="keywords"
+        content="Technology Advisory, Fractional CTO, POPIA Compliance, South Africa, Insurance, FinTech, Prathamesh Bongale">
+    <meta name="author" content="Digitamygdala">
+
+    <title>Digitamygdala | Technology Advisory & Fractional CTO</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/digitamygdala_icon_transparent.svg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome (Free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- TODO: MVP 2 — Add analytics & security headers -->
+    <!-- Google Analytics / Plausible / Umami script will go here -->
+    <!-- Content-Security-Policy meta tag will go here -->
+</head>
+
+<body>
+    <!-- ================================================================
+         LOADING SCREEN
+         ================================================================ -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">DIGIT<span>AMYGDALA</span></div>
+            <div class="loader-bar">
+                <div class="loader-bar-inner"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================================================================
+         MOBILE NAV OVERLAY
+         ================================================================ -->
+    <div class="nav-overlay" id="nav-overlay"></div>
+
+    <!-- ================================================================
+         NAVIGATION
+         ================================================================ -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo" id="nav-logo">DIGIT<span>AMYGDALA</span></a>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero" class="active" data-section="hero">Home</a></li>
+                <li><a href="#services" data-section="services">Services</a></li>
+                <li><a href="#contact" data-section="contact">Contact</a></li>
+                <li><a href="#about" data-section="about">About</a></li>
+                <li><a href="#contact" class="nav-cta">Book a Call</a></li>
+            </ul>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================================================================
+         HERO / LANDING SECTION
+         ================================================================ -->
+    <section class="hero" id="hero">
+        <!-- Animated bg particles -->
+        <div class="hero-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+
+        <div class="container hero-container">
+            <!-- Text column -->
+            <div class="hero-content">
+                <p class="hero-overline">Technology Advisory &amp; Fractional CTO</p>
+                <h1 class="hero-title" id="hero-title">
+                    We Help You Navigate<br>
+                    the <span class="highlight">Intersection</span> of<br>
+                    Technology &amp; Human<br>
+                    Decision-Making
+                </h1>
+                <p class="hero-desc" id="hero-desc">
+                    The amygdala is the region of the brain that drives emotion and decision-making.
+                    At <strong>Digitamygdala</strong>, we bring that same instinct to technology —
+                    helping businesses make sharper, faster, and more human-centred tech decisions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary" id="hero-cta-services">
+                        <i class="fas fa-arrow-right"></i> Explore Services
+                    </a>
+                    <a href="#contact" class="btn btn-secondary" id="hero-cta-contact">
+                        <i class="fas fa-calendar-check"></i> Book a Free Call
+                    </a>
+                </div>
+            </div>
+
+            <!-- Visual column -->
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=700&fit=crop"
+                        alt="Digital technology network representing Digitamygdala's advisory services" id="hero-image"
+                        loading="eager">
+
+                    <div class="hero-statement">
+                        <p>"We see our clients as humans, and we work with the challenges they face."</p>
+                        <div class="attribution">— Digitamygdala</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         SERVICES SECTION
+         ================================================================ -->
+    <section class="section section-alt" id="services">
+        <div class="container">
+            <!-- Header -->
+            <div class="section-header reveal">
+                <p class="section-label">What We Do</p>
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">
+                    Strategic technology guidance for insurance and financial services companies —
+                    without the cost of a full-time CTO.
+                </p>
+            </div>
+
+            <!-- Service cards -->
+            <div class="services-grid">
+                <!-- 1 — Technology Health Check -->
+                <div class="service-card reveal" id="service-health-check">
+                    <div class="service-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>Technology Health Check</h3>
+                    <p>
+                        A half-day technical assessment of your systems, architecture, security posture,
+                        and POPIA compliance gaps. You receive a written one-page report with prioritised
+                        recommendations and clear next steps.
+                    </p>
+                    <div class="service-label">What You Get</div>
+                    <div class="service-tags">
+                        <span class="service-tag">Architecture Review</span>
+                        <span class="service-tag">Security & POPIA Gap Analysis</span>
+                        <span class="service-tag">Team Process Evaluation</span>
+                        <span class="service-tag">One-Page Report</span>
+                        <span class="service-tag">30-min Follow-up Call</span>
+                    </div>
+                    <div class="service-label">Ideal For</div>
+                    <div class="service-tags">
+                        <span class="service-tag">Pre-Series A Startups</span>
+                        <span class="service-tag">Scaling Companies</span>
+                        <span class="service-tag">New CTOs</span>
+                    </div>
+                    <div class="service-investment">
+                        <i class="fas fa-coins"></i> R6,500 – R8,500
+                    </div>
+                </div>
+
+                <!-- 2 — Fractional CTO Retainer -->
+                <div class="service-card reveal" id="service-fractional-cto">
+                    <div class="service-icon">
+                        <i class="fas fa-chess-king"></i>
+                    </div>
+                    <h3>Fractional CTO Retainer</h3>
+                    <p>
+                        Part-time strategic technology leadership for your company. 10–15 hours per month
+                        of architecture decisions, vendor selection, team hiring guidance, and strategic
+                        planning — without the R80k–R120k/month cost of a full-time CTO.
+                    </p>
+                    <div class="service-label">What You Get</div>
+                    <div class="service-tags">
+                        <span class="service-tag">Strategic Tech Decisions</span>
+                        <span class="service-tag">Architecture Meetings</span>
+                        <span class="service-tag">Technical Hiring Guidance</span>
+                        <span class="service-tag">Vendor & Tool Selection</span>
+                        <span class="service-tag">Monthly Written Update</span>
+                        <span class="service-tag">On-call via WhatsApp</span>
+                    </div>
+                    <div class="service-label">Ideal For</div>
+                    <div class="service-tags">
+                        <span class="service-tag">Seed to Series A Startups</span>
+                        <span class="service-tag">Non-technical Founders</span>
+                        <span class="service-tag">Post Technical Debt Crisis</span>
+                    </div>
+                    <div class="service-investment">
+                        <i class="fas fa-coins"></i> R35,000 – R55,000 / month
+                    </div>
+                </div>
+
+                <!-- 3 — POPIA Compliance Engineering -->
+                <div class="service-card reveal" id="service-popia">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+                    <h3>POPIA Compliance Engineering</h3>
+                    <p>
+                        Turn POPIA compliance from a legal checklist into working code. We implement
+                        data masking, access policies (Open Policy Agent), audit trails, and data lineage
+                        tracking in your existing systems. Deliverable: production-ready code + documentation.
+                    </p>
+                    <div class="service-label">What You Get</div>
+                    <div class="service-tags">
+                        <span class="service-tag">OPA Policy Implementation</span>
+                        <span class="service-tag">Data Masking & Redaction</span>
+                        <span class="service-tag">Audit Logging Architecture</span>
+                        <span class="service-tag">Data Lineage Tracking</span>
+                        <span class="service-tag">Working Code in Your Repo</span>
+                        <span class="service-tag">Compliance Documentation</span>
+                    </div>
+                    <div class="service-label">Ideal For</div>
+                    <div class="service-tags">
+                        <span class="service-tag">Insurance Brokers</span>
+                        <span class="service-tag">FinTech Platforms</span>
+                        <span class="service-tag">Medical Aid Administrators</span>
+                    </div>
+                    <div class="service-investment">
+                        <i class="fas fa-coins"></i> R12,000 – R18,000 / day (5–10 day engagements)
+                    </div>
+                </div>
+            </div>
+
+            <!-- Why Digitamygdala -->
+            <div class="why-section reveal">
+                <div class="section-header">
+                    <p class="section-label">Why Us</p>
+                    <h2 class="section-title" style="font-size: clamp(1.5rem, 3vw, 2.2rem);">
+                        Why Digitamygdala?
+                    </h2>
+                </div>
+                <div class="why-grid">
+                    <div class="why-item">
+                        <div class="why-icon"><i class="fas fa-brain"></i></div>
+                        <div>
+                            <h4>Domain Expertise</h4>
+                            <p>8 years running Digital insurance platform — one of SA's most complex
+                                insurance systems.</p>
+                        </div>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon"><i class="fas fa-code"></i></div>
+                        <div>
+                            <h4>Code, Not Consulting</h4>
+                            <p>We build working solutions, not just PowerPoint recommendations. You get production-ready
+                                code.</p>
+                        </div>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon"><i class="fas fa-lock"></i></div>
+                        <div>
+                            <h4>POPIA Specialist</h4>
+                            <p>One of the few SA advisors who implements POPIA compliance in actual code using tools
+                                like OPA.</p>
+                        </div>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon"><i class="fas fa-tag"></i></div>
+                        <div>
+                            <h4>Transparent Pricing</h4>
+                            <p>No hidden fees, no scope creep, no surprise invoices. Fixed rates with clear
+                                deliverables.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         CONTACT SECTION
+         ================================================================ -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-label">Get in Touch</p>
+                <h2 class="section-title">Let's Talk Technology</h2>
+                <p class="section-subtitle">
+                    Ready to discuss your technology challenges? No sales pitch — just a structured
+                    conversation about what you're building.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact methods -->
+                <div class="contact-info reveal">
+                    <h3>Reach Out Directly</h3>
+                    <p>We'd love to hear about your project. Choose your preferred method of communication below.</p>
+
+                    <div class="contact-methods">
+                        <!-- Email -->
+                        <a href="mailto:prathamesh@digitamygdala.com" class="contact-method" id="contact-email">
+                            <div class="contact-method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-method-text">
+                                <h4>Email</h4>
+                                <p>prathamesh@digitamygdala.com</p>
+                            </div>
+                        </a>
+
+                        <!-- WhatsApp -->
+                        <a href="https://wa.me/27621257116" target="_blank" rel="noopener noreferrer"
+                            class="contact-method" id="contact-whatsapp">
+                            <div class="contact-method-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-method-text">
+                                <h4>WhatsApp</h4>
+                                <p>Send us a message</p>
+                            </div>
+                        </a>
+
+                        <!-- Location -->
+                        <div class="contact-method" id="contact-location">
+                            <div class="contact-method-icon">
+                                <i class="fas fa-location-dot"></i>
+                            </div>
+                            <div class="contact-method-text">
+                                <h4>Location</h4>
+                                <p>Johannesburg, South Africa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Booking -->
+                <div class="contact-booking reveal" id="contact-booking">
+                    <i class="fas fa-calendar-check"
+                        style="font-size: 3rem; color: var(--clr-gold); margin-bottom: var(--space-md);"></i>
+                    <h3>Book a Free 30-Minute Call</h3>
+                    <p>
+                        Schedule an exploratory conversation to discuss your technology challenges.
+                        No commitment required — let's see if we're the right fit.
+                    </p>
+                    <a href="https://calendly.com/prathamesh-digitamygdala/30min" class="btn btn-primary"
+                        id="booking-cta" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-calendar-plus"></i> Schedule on Calendly
+                    </a>
+                    <p style="font-size: 0.8rem; color: var(--clr-text-dim); margin-top: var(--space-sm);">
+                        Powered by Calendly • Free to use
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         ABOUT SECTION
+         ================================================================ -->
+    <section class="section section-alt" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-label">About</p>
+                <h2 class="section-title">Meet Prathamesh</h2>
+            </div>
+
+            <div class="about-grid">
+                <!-- Image -->
+                <div class="about-image-wrapper reveal">
+                    <img src="assets/prathamesh_bongale.png" alt="Prathamesh Bongale — Founder of Digitamygdala"
+                        id="about-image" loading="lazy">
+                </div>
+
+                <!-- Bio -->
+                <div class="about-content reveal">
+                    <h3>Prathamesh Bongale</h3>
+                    <p class="about-text">
+                        I am a seasoned technology professional with 12+ years of enterprise delivery
+                        experience and 8 years of deep domain expertise in digital insurance. As the
+                        founder of <strong>Digitamygdala</strong>, I bridge the gap between technical
+                        complexity and business objectives — helping companies build scalable, compliant
+                        technology systems that stand the test of growth.
+                    </p>
+                    <p class="about-text">
+                        Having led Absa's Activate digital insurance platform — one of South Africa's
+                        most complex insurance systems — I understand what breaks at scale and how to
+                        prevent it. My approach is hands-on: production-ready code, not just PowerPoint decks.
+                    </p>
+                    <p class="about-text">
+                        Whether you're a startup founder making your first technology decisions or an
+                        established company navigating technical debt, I provide the strategic guidance
+                        you need without the overhead of a full-time CTO.
+                    </p>
+
+                    <div class="about-links">
+                        <a href="https://www.linkedin.com/in/prathamesh-bongale/" target="_blank"
+                            rel="noopener noreferrer" class="about-link-item" id="about-linkedin">
+                            <i class="fab fa-linkedin"></i>
+                            <span>Follow me on LinkedIn</span>
+                            <span class="link-url">linkedin.com/in/prathamesh-bongale</span>
+                        </a>
+                        <a href="https://prathameshbongale.com" target="_blank" rel="noopener noreferrer"
+                            class="about-link-item" id="about-website">
+                            <i class="fas fa-globe"></i>
+                            <span>Personal Website</span>
+                            <span class="link-url">prathameshbongale.com</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         FOOTER
+         ================================================================ -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">DIGIT<span>AMYGDALA</span></div>
+
+                <p class="footer-follow">Follow Us</p>
+
+                <div class="footer-social">
+                    <a href="https://linkedin.com/company/digitamygdala" target="_blank" rel="noopener noreferrer"
+                        aria-label="Digitamygdala on LinkedIn" id="footer-linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <!-- TODO: Add more social links as they become available -->
+                </div>
+
+                <p class="footer-text">
+                    &copy; <span id="footer-year"></span> Digitamygdala. All rights reserved.<br>
+                    Johannesburg, South Africa
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ================================================================
+         SCRIPTS
+         ================================================================ -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
