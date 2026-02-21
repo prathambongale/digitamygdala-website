@@ -47,7 +47,7 @@ digitamygdala/
 ├── js/
 │   └── main.js         # Navigation, animations, scroll effects
 ├── assets/
-│   ├── DIGITAMYGDALA_Services.pdf   # Services document (source of truth)
+│   ├── DIGITAMYGDALA_Services_v2.pdf # Services document (source of truth)
 │   └── landing_page_idea.png        # Canva design reference
 ├── README.md           # This file
 └── HOSTING.md          # Free hosting options guide
